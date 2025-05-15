@@ -1,0 +1,178 @@
+{
+  "crops": [
+    {
+      "id": "carrot",
+      "name": {
+        "en": "Carrot",
+        "ru": "Морковь"
+      },
+      "description": {
+        "en": "Quick-growing root vegetable",
+        "ru": "Быстрорастущий корнеплод"
+      },
+      "growTime": 10800,
+      "seedCost": 10,
+      "yield": 20,
+      "xp": 5,
+      "stages": [
+        {
+          "id": "seed",
+          "duration": 0.25
+        },
+        {
+          "id": "sprout",
+          "duration": 0.5
+        },
+        {
+          "id": "mature",
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "tomato",
+      "name": {
+        "en": "Tomato",
+        "ru": "Помидор"
+      },
+      "description": {
+        "en": "Red juicy vegetable",
+        "ru": "Красный сочный овощ"
+      },
+      "growTime": 21600,
+      "seedCost": 20,
+      "yield": 40,
+      "xp": 10,
+      "stages": [
+        {
+          "id": "seed",
+          "duration": 0.2
+        },
+        {
+          "id": "sprout",
+          "duration": 0.5
+        },
+        {
+          "id": "mature",
+          "duration": 0.3
+        }
+      ]
+    },
+    {
+      "id": "strawberry",
+      "name": {
+        "en": "Strawberry",
+        "ru": "Клубника"
+      },
+      "description": {
+        "en": "Sweet red berries",
+        "ru": "Сладкие красные ягоды"
+      },
+      "growTime": 28800,
+      "seedCost": 30,
+      "yield": 60,
+      "xp": 15,
+      "stages": [
+        {
+          "id": "seed",
+          "duration": 0.2
+        },
+        {
+          "id": "sprout",
+          "duration": 0.5
+        },
+        {
+          "id": "mature",
+          "duration": 0.3
+        }
+      ]
+    },
+    {
+      "id": "sunflower",
+      "name": {
+        "en": "Sunflower",
+        "ru": "Подсолнух"
+      },
+      "description": {
+        "en": "Tall plant with large yellow flowers",
+        "ru": "Высокое растение с большими желтыми цветами"
+      },
+      "growTime": 43200,
+      "seedCost": 40,
+      "yield": 80,
+      "xp": 20,
+      "stages": [
+        {
+          "id": "seed",
+          "duration": 0.2
+        },
+        {
+          "id": "sprout",
+          "duration": 0.5
+        },
+        {
+          "id": "mature",
+          "duration": 0.3
+        }
+      ]
+    },
+    {
+      "id": "cabbage",
+      "name": {
+        "en": "Cabbage",
+        "ru": "Капуста"
+      },
+      "description": {
+        "en": "Large green vegetable",
+        "ru": "Большой зеленый овощ"
+      },
+      "growTime": 36000,
+      "seedCost": 35,
+      "yield": 70,
+      "xp": 18,
+      "stages": [
+        {
+          "id": "seed",
+          "duration": 0.2
+        },
+        {
+          "id": "sprout",
+          "duration": 0.5
+        },
+        {
+          "id": "mature",
+          "duration": 0.3
+        }
+      ]
+    },
+    {
+      "id": "potato",
+      "name": {
+        "en": "Potato",
+        "ru": "Картофель"
+      },
+      "description": {
+        "en": "Starchy tuber vegetable",
+        "ru": "Крахмалистый клубневый овощ"
+      },
+      "growTime": 18000,
+      "seedCost": 15,
+      "yield": 30,
+      "xp": 8,
+      "stages": [
+        {
+          "id": "seed",
+          "duration": 0.2
+        },
+        {
+          "id": "sprout",
+          "duration": 0.5
+        },
+        {
+          "id": "mature",
+          "duration": 0.3
+        }
+      ]
+    }
+  ]
+}

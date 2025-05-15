@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "id": "dog",
+      "name": {
+        "en": "Guard Dog",
+        "ru": "Сторожевой пёс"
+      },
+      "description": {
+        "en": "Protects your farm from thieves. Will bite anyone attempting to steal from your garden. Thieves lose coins that go to you.",
+        "ru": "Защищает вашу ферму от воров. Укусит любого, кто попытается украсть с вашего сада. Воры теряют монеты, которые достаются вам."
+      },
+      "priceStars": 10,
+      "type": "animal_guard",
+      "duration": 2592000,
+      "effects": {
+        "theftProtection": 0.75,
+        "damageToThief": 50
+      },
+      "requirements": {
+        "level": 5
+      },
+      "consumable": false,
+      "feedId": "dogFood",
+      "feedIntervalSec": 86400
+    },
+    {
+      "id": "autoWaterer",
+      "name": {
+        "en": "Auto-Waterer",
+        "ru": "Авто-поливатель"
+      },
+      "description": {
+        "en": "Waters your plants automatically once every 24 hours",
+        "ru": "Автоматически поливает ваши растения раз в 24 часа"
+      },
+      "priceStars": 15,
+      "type": "automation",
+      "duration": 2592000,
+      "effects": {
+        "autoWater": true
+      },
+      "requirements": {
+        "level": 10
+      },
+      "consumable": false
+    },
+    {
+      "id": "pestRemover",
+      "name": {
+        "en": "Pest Control",
+        "ru": "Средство от вредителей"
+      },
+      "description": {
+        "en": "Prevents pests from appearing on your farm for 3 days",
+        "ru": "Предотвращает появление вредителей на вашей ферме в течение 3 дней"
+      },
+      "priceStars": 8,
+      "type": "buff",
+      "duration": 259200,
+      "effects": {
+        "pestImmunity": true
+      },
+      "requirements": {
+        "level": 3
+      },
+      "consumable": true
+    },
+    {
+      "id": "fertilizerPlus",
+      "name": {
+        "en": "Super Fertilizer",
+        "ru": "Супер удобрение"
+      },
+      "description": {
+        "en": "Reduces growth time by 50% for all plants for 24 hours",
+        "ru": "Уменьшает время роста всех растений на 50% в течение 24 часов"
+      },
+      "priceStars": 12,
+      "type": "buff",
+      "duration": 86400,
+      "effects": {
+        "growthMultiplier": 2
+      },
+      "requirements": {
+        "level": 7
+      },
+      "consumable": true
+    },
+    {
+      "id": "themeClassic",
+      "name": {
+        "en": "Classic 2010 Theme",
+        "ru": "Классическая тема 2010"
+      },
+      "description": {
+        "en": "Nostalgic theme inspired by the original Happy Farmer game",
+        "ru": "Ностальгическая тема по мотивам оригинальной игры Счастливый фермер"
+      },
+      "priceStars": 20,
+      "type": "theme",
+      "themePath": "themes/classic_2010.json",
+      "requirements": {
+        "level": 1
+      },
+      "consumable": false
+    },
+    {
+      "id": "premiumChicken",
+      "name": {
+        "en": "Golden Chicken",
+        "ru": "Золотая курица"
+      },
+      "description": {
+        "en": "Produces twice as many eggs as a regular chicken",
+        "ru": "Производит в два раза больше яиц, чем обычная курица"
+      },
+      "priceStars": 25,
+      "type": "premium_animal",
+      "effects": {
+        "produceMultiplier": 2
+      },
+      "requirements": {
+        "level": 15
+      },
+      "consumable": false,
+      "feedId": "grain",
+      "feedCost": 10,
+      "feedIntervalSec": 43200
+    }
+  ]
+}

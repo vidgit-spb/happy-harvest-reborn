@@ -1,0 +1,119 @@
+{
+  "animals": [
+    {
+      "id": "chicken",
+      "name": {
+        "en": "Chicken",
+        "ru": "Курица"
+      },
+      "description": {
+        "en": "Produces eggs regularly",
+        "ru": "Регулярно производит яйца"
+      },
+      "cost": 100,
+      "produceId": "egg",
+      "produceYield": 1,
+      "produceIntervalSec": 14400,
+      "feedId": "grain",
+      "feedCost": 5,
+      "feedIntervalSec": 43200,
+      "xp": 10,
+      "size": {
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "id": "cow",
+      "name": {
+        "en": "Cow",
+        "ru": "Корова"
+      },
+      "description": {
+        "en": "Produces milk regularly",
+        "ru": "Регулярно производит молоко"
+      },
+      "cost": 500,
+      "produceId": "milk",
+      "produceYield": 2,
+      "produceIntervalSec": 28800,
+      "feedId": "hay",
+      "feedCost": 20,
+      "feedIntervalSec": 57600,
+      "xp": 50,
+      "size": {
+        "width": 2,
+        "height": 1
+      }
+    },
+    {
+      "id": "sheep",
+      "name": {
+        "en": "Sheep",
+        "ru": "Овца"
+      },
+      "description": {
+        "en": "Produces wool regularly",
+        "ru": "Регулярно производит шерсть"
+      },
+      "cost": 400,
+      "produceId": "wool",
+      "produceYield": 1,
+      "produceIntervalSec": 72000,
+      "feedId": "grain",
+      "feedCost": 15,
+      "feedIntervalSec": 43200,
+      "xp": 40,
+      "size": {
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "id": "pig",
+      "name": {
+        "en": "Pig",
+        "ru": "Свинья"
+      },
+      "description": {
+        "en": "Grows fast and provides meat",
+        "ru": "Быстро растет и дает мясо"
+      },
+      "cost": 300,
+      "produceId": "meat",
+      "produceYield": 3,
+      "produceIntervalSec": 86400,
+      "feedId": "slop",
+      "feedCost": 10,
+      "feedIntervalSec": 28800,
+      "xp": 30,
+      "size": {
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "id": "goat",
+      "name": {
+        "en": "Goat",
+        "ru": "Коза"
+      },
+      "description": {
+        "en": "Produces goat milk regularly",
+        "ru": "Регулярно производит козье молоко"
+      },
+      "cost": 350,
+      "produceId": "goatMilk",
+      "produceYield": 2,
+      "produceIntervalSec": 21600,
+      "feedId": "hay",
+      "feedCost": 12,
+      "feedIntervalSec": 43200,
+      "xp": 35,
+      "size": {
+        "width": 1,
+        "height": 1
+      }
+    }
+  ]
+}

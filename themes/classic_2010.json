@@ -1,0 +1,246 @@
+{
+  "themeName": "classic_2010",
+  "description": {
+    "en": "Classic theme inspired by the original 2010 Happy Farmer game",
+    "ru": "Классическая тема в стиле оригинальной игры Счастливый Фермер 2010 года"
+  },
+  "basePath": "assets/themes/classic_2010",
+  "cursor": {
+    "default": "cursor_default.png",
+    "action": "cursor_action.png",
+    "plant": "cursor_plant.png",
+    "water": "cursor_water.png",
+    "harvest": "cursor_harvest.png"
+  },
+  "tiles": {
+    "grass": {
+      "id": "tile_grass",
+      "tint": "0xFFFFFF",
+      "frame": 0,
+      "animFps": 0
+    },
+    "dirt": {
+      "id": "tile_dirt",
+      "tint": "0xFFFFFF",
+      "frame": 0,
+      "animFps": 0
+    },
+    "water": {
+      "id": "tile_water",
+      "tint": "0xFFFFFF",
+      "frame": 0,
+      "animFps": 5
+    }
+  },
+  "crops": {
+    "carrot": {
+      "seed": {
+        "id": "crop_carrot_seed",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 0
+      },
+      "sprout": {
+        "id": "crop_carrot_sprout",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 0
+      },
+      "mature": {
+        "id": "crop_carrot_mature",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 2
+      },
+      "harvest": {
+        "id": "crop_carrot_harvest",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 5
+      }
+    },
+    "tomato": {
+      "seed": {
+        "id": "crop_tomato_seed",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 0
+      },
+      "sprout": {
+        "id": "crop_tomato_sprout",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 0
+      },
+      "mature": {
+        "id": "crop_tomato_mature",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 2
+      },
+      "harvest": {
+        "id": "crop_tomato_harvest",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 5
+      }
+    },
+    "strawberry": {
+      "seed": {
+        "id": "crop_strawberry_seed",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 0
+      },
+      "sprout": {
+        "id": "crop_strawberry_sprout",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 0
+      },
+      "mature": {
+        "id": "crop_strawberry_mature",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 2
+      },
+      "harvest": {
+        "id": "crop_strawberry_harvest",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 5
+      }
+    }
+  },
+  "animals": {
+    "chicken": {
+      "idle": {
+        "id": "animal_chicken_idle",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 3
+      },
+      "fed": {
+        "id": "animal_chicken_fed",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 4
+      },
+      "produce": {
+        "id": "animal_chicken_produce",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 6
+      }
+    },
+    "cow": {
+      "idle": {
+        "id": "animal_cow_idle",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 2
+      },
+      "fed": {
+        "id": "animal_cow_fed",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 3
+      },
+      "produce": {
+        "id": "animal_cow_produce",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 5
+      }
+    }
+  },
+  "trees": {
+    "appleTree": {
+      "sapling": {
+        "id": "tree_apple_sapling",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 0
+      },
+      "growing": {
+        "id": "tree_apple_growing",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 0
+      },
+      "mature": {
+        "id": "tree_apple_mature",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 1
+      },
+      "harvest": {
+        "id": "tree_apple_harvest",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 3
+      }
+    }
+  },
+  "buildings": {
+    "factory": {
+      "level1": {
+        "id": "building_factory_1",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 2
+      },
+      "level2": {
+        "id": "building_factory_2",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 3
+      },
+      "level3": {
+        "id": "building_factory_3",
+        "tint": "0xFFFFFF",
+        "frame": 0,
+        "animFps": 4
+      }
+    }
+  },
+  "effects": {
+    "waterDrop": {
+      "id": "effect_water_drop",
+      "tint": "0xFFFFFF",
+      "frame": 0,
+      "animFps": 8
+    },
+    "harvest": {
+      "id": "effect_harvest",
+      "tint": "0xFFFFFF",
+      "frame": 0,
+      "animFps": 10
+    },
+    "levelUp": {
+      "id": "effect_level_up",
+      "tint": "0xFFFFFF",
+      "frame": 0,
+      "animFps": 12
+    }
+  },
+  "ui": {
+    "coinIcon": "ui_coin.png",
+    "starIcon": "ui_star.png",
+    "xpIcon": "ui_xp.png",
+    "toolbarBg": "ui_toolbar_bg.png",
+    "buttonNormal": "ui_button_normal.png",
+    "buttonHover": "ui_button_hover.png",
+    "buttonPressed": "ui_button_pressed.png"
+  },
+  "sounds": {
+    "bgMusic": "sounds/classic_bg_music.mp3",
+    "plant": "sounds/plant.mp3",
+    "water": "sounds/water.mp3",
+    "harvest": "sounds/harvest.mp3",
+    "animalFeed": "sounds/animal_feed.mp3",
+    "animalCollect": "sounds/animal_collect.mp3",
+    "levelUp": "sounds/level_up.mp3",
+    "coinCollect": "sounds/coin_collect.mp3"
+  }
+}

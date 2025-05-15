@@ -1,0 +1,23 @@
+{
+  "name": "game-logic",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "clean": "rimraf dist",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.4"
+  }
+}

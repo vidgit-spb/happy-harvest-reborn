@@ -1,0 +1,88 @@
+{
+  "trees": [
+    {
+      "id": "appleTree",
+      "name": {
+        "en": "Apple Tree",
+        "ru": "Яблоня"
+      },
+      "description": {
+        "en": "Produces juicy apples",
+        "ru": "Дает сочные яблоки"
+      },
+      "plantCost": 200,
+      "produceId": "apple",
+      "produceYield": 5,
+      "produceIntervalSec": 28800,
+      "lifespanDays": 30,
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "xp": 25
+    },
+    {
+      "id": "pearTree",
+      "name": {
+        "en": "Pear Tree",
+        "ru": "Груша"
+      },
+      "description": {
+        "en": "Produces sweet pears",
+        "ru": "Дает сладкие груши"
+      },
+      "plantCost": 300,
+      "produceId": "pear",
+      "produceYield": 4,
+      "produceIntervalSec": 36000,
+      "lifespanDays": 30,
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "xp": 35
+    },
+    {
+      "id": "cherryTree",
+      "name": {
+        "en": "Cherry Tree",
+        "ru": "Вишня"
+      },
+      "description": {
+        "en": "Produces red cherries",
+        "ru": "Дает красные вишни"
+      },
+      "plantCost": 400,
+      "produceId": "cherry",
+      "produceYield": 8,
+      "produceIntervalSec": 25200,
+      "lifespanDays": 30,
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "xp": 40
+    },
+    {
+      "id": "lemonTree",
+      "name": {
+        "en": "Lemon Tree",
+        "ru": "Лимонное дерево"
+      },
+      "description": {
+        "en": "Produces sour lemons",
+        "ru": "Дает кислые лимоны"
+      },
+      "plantCost": 450,
+      "produceId": "lemon",
+      "produceYield": 3,
+      "produceIntervalSec": 43200,
+      "lifespanDays": 30,
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "xp": 45
+    }
+  ]
+}

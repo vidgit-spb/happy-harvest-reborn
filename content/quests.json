@@ -1,0 +1,227 @@
+{
+  "quests": [
+    {
+      "id": "q_plant_10",
+      "name": {
+        "en": "Budding Farmer",
+        "ru": "Начинающий фермер"
+      },
+      "description": {
+        "en": "Plant 10 crops of any type",
+        "ru": "Посадите 10 культур любого типа"
+      },
+      "type": "daily",
+      "category": "farming",
+      "requiredAmount": 10,
+      "trackingType": "plant_any",
+      "rewards": {
+        "xp": 50,
+        "coins": 100
+      }
+    },
+    {
+      "id": "q_water_20",
+      "name": {
+        "en": "Water Master",
+        "ru": "Мастер полива"
+      },
+      "description": {
+        "en": "Water 20 plants",
+        "ru": "Полейте 20 растений"
+      },
+      "type": "daily",
+      "category": "farming",
+      "requiredAmount": 20,
+      "trackingType": "water",
+      "rewards": {
+        "xp": 50,
+        "coins": 100
+      }
+    },
+    {
+      "id": "q_harvest_15",
+      "name": {
+        "en": "Harvester",
+        "ru": "Сборщик урожая"
+      },
+      "description": {
+        "en": "Harvest 15 mature crops",
+        "ru": "Соберите 15 созревших культур"
+      },
+      "type": "daily",
+      "category": "farming",
+      "requiredAmount": 15,
+      "trackingType": "harvest",
+      "rewards": {
+        "xp": 75,
+        "coins": 150
+      }
+    },
+    {
+      "id": "q_steal_5",
+      "name": {
+        "en": "Sneaky Neighbor",
+        "ru": "Скрытный сосед"
+      },
+      "description": {
+        "en": "Steal 5 times from other gardens",
+        "ru": "Украдите 5 раз из других садов"
+      },
+      "type": "daily",
+      "category": "social",
+      "requiredAmount": 5,
+      "trackingType": "steal",
+      "rewards": {
+        "xp": 100,
+        "coins": 200
+      }
+    },
+    {
+      "id": "q_help_water_10",
+      "name": {
+        "en": "Helpful Neighbor",
+        "ru": "Полезный сосед"
+      },
+      "description": {
+        "en": "Water 10 plants in neighbors' gardens",
+        "ru": "Полейте 10 растений в садах соседей"
+      },
+      "type": "daily",
+      "category": "social",
+      "requiredAmount": 10,
+      "trackingType": "water_neighbor",
+      "rewards": {
+        "xp": 75,
+        "coins": 150
+      }
+    },
+    {
+      "id": "q_remove_weeds_8",
+      "name": {
+        "en": "Gardening Expert",
+        "ru": "Садоводческий эксперт"
+      },
+      "description": {
+        "en": "Remove weeds from 8 plots",
+        "ru": "Удалите сорняки с 8 участков"
+      },
+      "type": "daily",
+      "category": "farming",
+      "requiredAmount": 8,
+      "trackingType": "remove_weeds",
+      "rewards": {
+        "xp": 60,
+        "coins": 120
+      }
+    },
+    {
+      "id": "q_feed_animals_5",
+      "name": {
+        "en": "Animal Caretaker",
+        "ru": "Смотритель за животными"
+      },
+      "description": {
+        "en": "Feed 5 animals",
+        "ru": "Покормите 5 животных"
+      },
+      "type": "daily",
+      "category": "animals",
+      "requiredAmount": 5,
+      "trackingType": "feed_animal",
+      "rewards": {
+        "xp": 60,
+        "coins": 120
+      }
+    },
+    {
+      "id": "q_collect_products_10",
+      "name": {
+        "en": "Animal Products Collector",
+        "ru": "Сборщик продуктов животноводства"
+      },
+      "description": {
+        "en": "Collect 10 products from animals",
+        "ru": "Соберите 10 продуктов от животных"
+      },
+      "type": "daily",
+      "category": "animals",
+      "requiredAmount": 10,
+      "trackingType": "collect_animal_product",
+      "rewards": {
+        "xp": 70,
+        "coins": 140
+      }
+    },
+    {
+      "id": "q_factory_produce_3",
+      "name": {
+        "en": "Factory Worker",
+        "ru": "Фабричный работник"
+      },
+      "description": {
+        "en": "Produce 3 items at your factory",
+        "ru": "Произведите 3 предмета на вашей фабрике"
+      },
+      "type": "daily",
+      "category": "production",
+      "requiredAmount": 3,
+      "trackingType": "factory_produce",
+      "rewards": {
+        "xp": 80,
+        "coins": 160
+      }
+    },
+    {
+      "id": "q_plant_carrot_20",
+      "name": {
+        "en": "Carrot Enthusiast",
+        "ru": "Любитель моркови"
+      },
+      "description": {
+        "en": "Plant 20 carrot plants",
+        "ru": "Посадите 20 растений моркови"
+      },
+      "type": "weekly",
+      "category": "farming",
+      "requiredAmount": 20,
+      "trackingType": "plant_specific",
+      "trackingParams": {
+        "plantId": "carrot"
+      },
+      "rewards": {
+        "xp": 150,
+        "coins": 300
+      }
+    },
+    {
+      "id": "q_invite_friends_2",
+      "name": {
+        "en": "Social Butterfly",
+        "ru": "Социальная бабочка"
+      },
+      "description": {
+        "en": "Invite 2 friends to join the game",
+        "ru": "Пригласите 2 друзей присоединиться к игре"
+      },
+      "type": "special",
+      "category": "social",
+      "requiredAmount": 2,
+      "trackingType": "invite_friend",
+      "rewards": {
+        "xp": 200,
+        "coins": 500,
+        "items": [
+          {
+            "id": "fertilizerPlus",
+            "quantity": 1
+          }
+        ],
+        "bonus": {
+          "type": "growth_multiplier",
+          "value": 2,
+          "duration": 259200
+        }
+      }
+    }
+  ]
+}
